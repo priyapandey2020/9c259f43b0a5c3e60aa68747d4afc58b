@@ -5,20 +5,9 @@ class rope{
 			bodyA:body1,
 			bodyB:body2
 		}
-
-		//CHOOSE THE CORRECT OPTION TO CREATE A CONSTRAINT BODY
-
-		// this.rope=Constraint.create(options)
-		// World.add(world,this.rope)
-
-		// this.rope=Constraint(options)
-		// World.add(world,this.rope)
 		
 		this.rope=Constraint.create(options)
 		World.add(world,this.rope)
-
-		// this.rope=Constraint.create()
-		// World.add(world,this.rope)
 
 		this.offsetX = offsetX
 	}
