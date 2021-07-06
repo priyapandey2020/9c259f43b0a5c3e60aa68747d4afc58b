@@ -25,27 +25,6 @@ function setup() {
 	bob4 = new bob(440,575,40)
 	bob5 = new bob(480,575,40)
 	
-	
-	//CHOOSE THE CORRECT OPTION TO CREATE ROPE OBJECTS OUT OF ROPE CLASS
-	
-	// rope1=new rope(bob1.body,roofObject.body,-80)
-	// rope2=new rope(bob2.body,roofObject.body,-40)
-	// rope3=new rope(bob3.body,roofObject.body,0)
-	// rope4=new rope(bob4.body,roofObject.body,40)
-	// rope5=new rope(bob5.body,roofObject.body,80)
-
-	// rope1=new (bob1.body,roofObject.body,-80)
-	// rope2=new (bob2.body,roofObject.body,-40)
-	// rope3=new (bob3.body,roofObject.body,0)
-	// rope4=new (bob4.body,roofObject.body,40)
-	// rope5=new (bob5.body,roofObject.body,80)
-
-	// rope1= rope(bob1.body,roofObject.body,-80)
-	// rope2= rope(bob2.body,roofObject.body,-40)
-	// rope3= rope(bob3.body,roofObject.body,0)
-	// rope4= rope(bob4.body,roofObject.body,40)
-	// rope5= rope(bob5.body,roofObject.body,80)
-
 	rope1=new rope(bob1.body,roofObject.body,-80)
 	rope2=new rope(bob2.body,roofObject.body,-40)
 	rope3=new rope(bob3.body,roofObject.body,0)
